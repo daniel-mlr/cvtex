@@ -1,0 +1,8 @@
+*.aux
+*.dvi
+*.bdb_*
+*.fls
+*.log
+*.out
+*.pdf
+

@@ -1,0 +1,236 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+% \profilepic{alice.jpeg} % Profile picture
+\profilepic{dm1.jpg} % Profile picture
+
+\cvname{Daniel Meilleur} % Your name
+\cvjobtitle{H.R. Data Analyst and\\ Web Programmer} % Job title/career
+
+\cvdate{October 1, 2018} % Date of birth
+\cvaddress{3277 East 16th. Avenue\newline
+Vancouver, B.C., V5M 2M8} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{778--848--3331} % Phone number
+\cvsite{\href{http://dmeilleur.com}{http://dmeilleur.com}} % Personal website
+\cvmail{daniel.meilleur@gmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+% To have no About Me section, just remove all the text and leave \aboutme{}
+\aboutme{Freelance full stack Web programmer with a background in human resources
+compensation and HRIS administration. M. Sc. Economics}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{Tex{/}LaTeX{/}Gimp{/}Inkscape/4},
+        {C++{/}Java/0.5},
+        {Word{/}Excel/1.5},
+        {Node{/}Express{/}MongoDB{/}Firebase/3},
+        {Javascript{/}jQuery{/}React-Redux{/}D3/5},
+        {CSS{/}SCSS{/}BootStrap/4},
+        {HTML{/}HTML5{/}DOM{/}SVG/4.5},
+        {SQL{/}PostgreSQL/5},
+        {R{/}ggplot2/2.5},
+        {Python{/}Pandas{/}Numpy{/}Matplotlib/5.5}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+% \skillstext{{Francais/5},{Anglais/4}, {Espagnol/2}, {Allemand/2}}
+\langagestars{{French/5},{English/4}, {Spanish/2}, {German/2}, {Thai/1}, {Mandarin/1}}
+
+%----------------------------------------------------------------------------------------
+% Print the sidebar
+\makeprofile{}
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Objectives}
+
+Currently working on starting-up ``\href{http://bidngo.dmeilleur.com}{bid-n-go.com}'',
+a ``Mobility-as-a-Service'' app for interurban transportation, I am searching for 
+short terms to middle terms missions in human resources data analysis.
+
+
+%----------------------------------------------------------------------------------------
+%	 FREELANCE AND CONTRACTINGJ
+%----------------------------------------------------------------------------------------
+
+\section{Freelance and Contracts Recent Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+  \twentyitem{2016--2018}{Painter, interior and exterior}{Various clients}{}
+  \twentyitem{1999, 2016}{Greenhouse and Nursery: Admin.\ and production.}
+    {\href{http://lesserresarundel.dmeilleur.com/}{Les Serres Arundel}}
+    {Designed and implemented a production planning software.\\
+    Trained personnel in office computing. Built Website}
+  \twentyitem{2001--2006}{Contract Agent.}
+    {\href{https://www.kellyservices.ca/}{Kelly Services}}
+    {Truck dispatching at Esso and Purolator. Developed a database for maintenance management
+    at Shell Canada. \emph{Received top recommendations from Kelly's customers.}}
+  \twentyitem{2001}{Compensation consulting}
+    {\href{https://societe.lotoquebec.com}{Loto Québec}}
+    {Developed benefits evaluation program.}
+    %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+% \section{Awards}
+%
+% \begin{twentyshort} % Environment for a short list with no descriptions
+%   \twentyitemshort{1987}{All-Time Best Fantasy Novel.}
+%     \twentyitemshort{1998}{All-Time Best Fantasy Novel before 1990.}
+%     %\twentyitemshort{<dates>}{<title/description>}
+% \end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Employment Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+  \twentyitem{2008--2013}{Production Agent}
+    {\href{http://www.raumplusna.com/}{Raumplus N.A.}}
+    {Assembled and shipped building material. \emph{Designed and built shop improvements that decreased
+    total packaging time by 10\%}}
+  \twentyitem{1988--1998}{Compensation and HRIS administrator.}
+    {\href{http://www.pfresolu.com/}{Resolute Forest Products}}
+    {Provided job evaluation. Conducted salary surveys. 
+    Administered HRIS and advised on HRIS transition. 
+    Administered executive bonus program.
+    \emph{Rewrited policy manuals. Implemented employment equity program. 
+    Integrated and customised a Hay job evaluation system }}
+  \twentyitem{1979--1981}{Technical Salesman.}
+    {\href{http://www.feinc.com/view.php?id=3}{E.W. Playford}}
+    {Counselled customers on industrial controls. \emph{Reached the highest
+    sales volume amongst salesman in the fist year at the job.}}
+    %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS (maintenant Continuous Education Certificates)
+%----------------------------------------------------------------------------------------
+\section{Continuous Education Certificates}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+  \twentyitemshort{2016}{Front End Development. 
+    \hfill \href{https://www.freecodecamp.org/}
+    {Free Code Camp}}
+  \twentyitemshort{2015}{Data Scientist ToolBox, \emph{With Distinction.}
+    \hfill \href{https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/974723~2303133/pdf}
+    {John Hopkins}}
+  \twentyitemshort{2015}{Algorithm Design and Analysis. \hfill 
+    \href{}
+    {Stanford}}
+  \twentyitemshort{2014}{Model Thinking. \emph{With Distinction} \hfill 
+    \href{https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972510~2303133/pdf}
+    {U. of Michigan}}
+  \twentyitemshort{2014}{Machine Learning, \emph{With Distinction.} \hfill 
+    \href{https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/972224~2303133/pdf}
+    {Stanford}}
+  \twentyitemshort{2014}{Data Analysis. \hfill 
+    \href{https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/971332~2303133/pdf}
+    {John Hopkins}}
+  \twentyitemshort{2014}{Web Intelligence and Big Data. \hfill 
+    \href{https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/971252~2303133/pdf}
+    {Inst. Tech. Delhi}}
+  \twentyitemshort{2013}{Social and Economic Networks: Models and Analysis \hfill 
+    \href{https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/970736~2303133/pdf}
+    {Stanford}}
+  %\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{twenty} % Environment for a list with descriptions
+  \twentyitem{2005--2006}{Post Graduate Diploma in e-Commerce.}{HEC Montreal}
+    {\emph{Earned Manulife High Achievement Scholarship}}
+  \twentyitem{2001--2002}{Graduate Micro Program in Adult Training}{U. of Montreal}
+    {} %chktex 8
+  \twentyitem{1985--1987}{M.Sc. Economics}{U. of Montreal}
+    {Micro-economics. \emph{Earned Transport Canada Excellence Scholarship}} %chktex 8
+  \twentyitem{1981--1985}{B.Sc. Maj. Economics, Min. Anthropology}{U. of Montreal}{}
+
+    %\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Other information}
+
+\subsection{Other Interests and Skills}
+
+Language studies, travel.  Hiking. Choir singing.
+
+Music Sheet Editing: proficiency with MuseScore editor.
+
+
+%----------------------------------------------------------------------------------------
+%	 SECOND PAGE EXAMPLE
+%----------------------------------------------------------------------------------------
+
+%\newpage % Start a new page
+
+%\makeprofile % Print the sidebar
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%\section{Other information}
+
+%\subsection{Review}
+
+%Alice approaches Wonderland as an anthropologist, but maintains a strong sense of noblesse oblige that comes with her class status. She has confidence in her social position, education, and the Victorian virtue of good manners. Alice has a feeling of entitlement, particularly when comparing herself to Mabel, whom she declares has a ``poky little house," and no toys. Additionally, she flaunts her limited information base with anyone who will listen and becomes increasingly obsessed with the importance of good manners as she deals with the rude creatures of Wonderland. Alice maintains a superior attitude and behaves with solicitous indulgence toward those she believes are less privileged.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
